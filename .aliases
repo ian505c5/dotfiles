@@ -140,3 +140,13 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
+
+alias ibcd="grunt serve --client=ibc --api='https://caerus-dev.test.arrayhealthsolutions.com'"
+alias ibc="grunt serve --client=ibc --api='https://caerus.test.arrayhealthsolutions.com'"
+
+alias ahnjd="grunt serve --client=ahnj --api='https://ahnj-dev.test.arrayhealthsolutions.com'"
+alias ahnj="grunt serve --client=ahnj --api='https://ahnj.test.arrayhealthsolutions.com'"
+
+alias ala="grunt serve --client=ala --api='https://alala.test.arrayhealthsolutions.com'"
+
+alias hmb="grunt serve --client=hmb --api='https://helios.test.arrayhealthsolutions.com'"
