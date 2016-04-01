@@ -170,3 +170,7 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+
+[user]
+    name = Ian Mathews
+    email = ian.mathews@arrayhealth.com

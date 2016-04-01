@@ -141,12 +141,20 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
 
-alias ibcd="grunt serve --client=ibc --api='https://caerus-dev.test.arrayhealthsolutions.com'"
-alias ibc="grunt serve --client=ibc --api='https://caerus.test.arrayhealthsolutions.com'"
+alias caerusd="grunt serve --server=caerus --api='https://caerus-dev.test.arrayhealthsolutions.com'"
+alias caerus="grunt serve --server=caerus --api='https://caerus.test.arrayhealthsolutions.com'"
 
-alias ahnjd="grunt serve --client=ahnj --api='https://ahnj-dev.test.arrayhealthsolutions.com'"
-alias ahnj="grunt serve --client=ahnj --api='https://ahnj.test.arrayhealthsolutions.com'"
+alias ahnjd="grunt serve --server=ahnj --api='https://ahnj-dev.test.arrayhealthsolutions.com'"
+alias ahnj="grunt serve --server=ahnj --api='https://ahnj.test.arrayhealthsolutions.com'"
 
-alias ala="grunt serve --client=ala --api='https://alala.test.arrayhealthsolutions.com'"
+alias alala="grunt serve --server=alala --api='https://alala.test.arrayhealthsolutions.com'"
+alias alalad="grunt serve --server=alala --api='https://alala-dev.test.arrayhealthsolutions.com'"
 
-alias hmb="grunt serve --client=hmb --api='https://helios.test.arrayhealthsolutions.com'"
+alias apollo="grunt serve --server=apollo --api='https://apollo.test.arrayhealthsolutions.com'"
+alias apollod="grunt serve --server=apollo --api='https://apollo-dev.test.arrayhealthsolutions.com'"
+
+alias sec="grunt serve --server=sec --api='https://sec.test.arrayhealthsolutions.com'"
+alias secd="grunt serve --server=sec --api='https://sec-dev.test.arrayhealthsolutions.com'"
+
+alias helios="grunt serve --server=helios --api='https://helios.test.arrayhealthsolutions.com'"
+alias heliosd="grunt serve --server=helios --api='https://helios-dev.test.arrayhealthsolutions.com'"
