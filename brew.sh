@@ -100,5 +100,39 @@ brew install tree
 brew install webkit2png
 brew install zopfli
 
+# Install other useful binaries
+brew install ack
+#brew install exiv2
+brew install git
+brew install imagemagick
+# brew install lynx
+brew install node
+# brew install pigz
+# brew install rename
+# brew install rhino
+# brew install tree
+brew install webkit2png
+# brew install zopfli
+brew install trash
+brew install thefuck
+brew install rbenv ruby-build
+
+brew tap homebrew/versions
+
+# Install native apps
+brew install caskroom/cask/brew-cask
+
+brew tap caskroom/versions
+brew cask install atom
+brew cask install google-chrome
+brew cask install charles
+brew cask install encryptr
+brew cask install evernote
+brew cask install firefox
+brew cask install gitter
+brew cask install slack
+brew cask install hipchat
+brew cask install flux
+
 # Remove outdated versions from the cellar.
 brew cleanup
